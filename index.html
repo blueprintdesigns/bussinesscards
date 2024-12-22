@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .cta button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <p><strong>Designation:</strong> Your Title</p>
+        <p><strong>Organization:</strong> Your Organization</p>
+        <p><strong>Email:</strong> <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+1234567890">+1234567890</a></p>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <p>A brief description of yourself, your organization, and your expertise.</p>
+        </div>
+
+        <div class="section">
+            <h2>Portfolio & Achievements</h2>
+            <ul>
+                <li><a href="/portfolio/research.pdf" download>Research Paper</a></li>
+                <li><a href="/portfolio/project1.pdf" download>Successful Project Report</a></li>
+                <li><a href="/portfolio/award.jpg" download>Certification</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://yourblog.com">Visit My Blog</a></li>
+                <li><a href="/resources/presentation.pdf" download>Download Presentation</a></li>
+                <li><a href="https://example.com/tool">Recommended Tool</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Videos</h2>
+            <p><a href="https://www.youtube.com/watch?v=example">Watch Introductory Video</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Contact Me</h2>
+            <p>Let’s connect! Feel free to reach out for collaboration or partnerships.</p>
+        </div>
+
+        <div class="cta">
+            <button onclick="window.location.href='/vcf/yourname.vcf'">Download My Contact</button>
+        </div>
+    </div>
+</body>
+</html>
